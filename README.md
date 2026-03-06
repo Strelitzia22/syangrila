@@ -1,9 +1,5 @@
-# Website-With-Video-Background
+# Syangrila
 
-Create a Website With Vide Background
+A minimalist domain landing page with a non-fullscreen video hero.
+Includes Google Analytics and the text: 「しゃんぐりら / Farewell, for the lost years.」
 
-1. download the project
-2. download video and rename as explore.mp4
-3. link for videos : https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/
-4. install live server extension 
-5. to to index.html file and start with live-server

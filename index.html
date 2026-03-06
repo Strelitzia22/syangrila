@@ -1,41 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Syangrila</title>
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LPWRMJV80X"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="しゃんぐりら — Farewell, for the lost years." />
+  <title>Syangrila</title>
+  <link rel="stylesheet" href="style.css" />
 
-      gtag('config', 'G-LPWRMJV80X');
-    </script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LPWRMJV80X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LPWRMJV80X');
+  </script>
 </head>
 <body>
-    <section class="showcase">
-        <header>
-            <h2 class="logo"></h2>
-            <div class="toggle"></div>
-        </header>
-        <video src="Akatsuki2.webm" muted loop autoplay class="video"></video>
-        <div class="overlay"></div>
-        <div class="text">
-            <h2>しゃんぐりら</h2>
-            <h3>Farewell, for the lost years.</h3>
-            <a href="http://www.akabeesoft3.com/products/goei_complete/index.html">WHERE TO BUY THIS GAME</a>
-        </div>
-    </section>     
-    <div class="menu">
-        <ul>
-            <li><a href="https://bbs.saraba1st.com/2b/forum-6-1.html">Saraba1st</a></li>
-            <li><a href="https://nga.178.com/thread.php?fid=-447601">NGA</a></li>
-        </ul>
-    </div>
-    <script src="./index.js"></script>
+  <main class="hero" aria-label="Domain landing page">
+    <video
+      class="hero__video"
+      src="Akatsuki2.webm"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="auto"
+      aria-hidden="true"
+    ></video>
+    <div class="hero__overlay" aria-hidden="true"></div>
+
+    <section class="hero__content">
+      <h1>しゃんぐりら</h1>
+      <p>Farewell, for the lost years.</p>
+    </section>
+  </main>
 </body>
 </html>
